@@ -12,3 +12,23 @@ Universal Styling
     padding: 0;
     border: 0;
 }
+
+header {
+    background: #499feb;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header li {
+    display: inline-block;
+    margin: 0 50px;
+}
