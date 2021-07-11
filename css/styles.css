@@ -53,3 +53,29 @@ h1,
 h2 {
     margin-bottom: 10px;
 }
+
+
+/* =====================================
+
+
+Position Styling
+
+
+=========================================*/
+
+.hero {
+    width: 1000px;
+    position: relative;
+    filter: brightness(0.8) blur(1px);
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+}
+
+.right {
+    height: 500px;
+    float: right;
+    padding: 0 50px;
+}
