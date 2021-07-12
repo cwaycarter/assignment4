@@ -88,6 +88,26 @@ Position Styling
 
 .right {
     height: 500px;
-    float: right;
     padding: 0 50px;
+    position: relative;
+    animation: bottle 1s infinite;
+    float: right;
+}
+
+
+/* ===================================================
+
+
+Animation Styling
+
+
+=======================================================*/
+
+@keyframes bottle {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-10deg);
+    }
 }
